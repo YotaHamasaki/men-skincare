@@ -1,0 +1,9 @@
+<h1>商品新規登録</h1>
+
+<%= form_with(model: @item, local: true) do |f| %>
+<%= f.label :name, "商品名" %>
+<%=f.text_field :name %>
+
+
+
+<% end %>

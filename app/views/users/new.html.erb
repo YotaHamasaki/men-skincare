@@ -1,0 +1,24 @@
+<h1>新規会員登録</h1>
+
+<%= form_with(model: @user, local: true) do |f| %>
+
+<%= f.label :name, "名前" %>
+<%= f.text_field :name %>
+
+<%= f.label :age, "年齢" %>
+<%= f.number_field :age %>
+
+<%= f.label :email, "メールアドレス" %>
+<%= f.email_field :email %>
+
+<%= f.label :password, "パスワード" %>
+<%= f.password_field :password %>
+
+<%= f.label :password_confirmation, "パスワード確認" %>
+<%= f.password_field :password_confirmation %>
+
+<%= f.submit "会員登録する" %>
+
+
+
+<% end %>

@@ -1,0 +1,8 @@
+<h1>商品一覧</h1>
+
+<ul>
+<% @items.each do |item| %>
+    <li><%= item.image %></li>
+    <li><%= item.name %></li>
+</ul>    
+<% end %>
