@@ -1,0 +1,30 @@
+.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.review-box {
+  margin: 1em 0;
+  padding: 1em;
+  border: dashed 3px #263238;
+}
+
+.item-top {
+  font-size: 30px;
+}

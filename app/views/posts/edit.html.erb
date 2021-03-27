@@ -1,0 +1,27 @@
+<h1>レビュー編集</h1>
+
+<%= form_with model: @post, url: edit_item_post_path do |f| %>
+
+ <div class="field" id="star">
+  <%= f.label :rate, "満足度：" %>
+  <%= f.hidden_field :rate, id: :review_star %>
+     <script>
+      $('#star').raty({
+        size     : 36,
+        starOff:  '<%= asset_path('star-off.png') %>',
+        starOn : '<%= asset_path('star-on.png') %>',
+        starHalf: '<%= asset_path('star-half.png') %>',
+        scoreName: 'post[rate]',
+        half: true,
+      });
+      </script>  
+</div>
+
+    <%= f.label :title, "タイトル" %>
+    <%= f.text_field :title %>
+    
+    <%= f.label :content, "レビュー本文" %>
+    <%= f.text_area :content %>
+   
+    <%= f.submit "編集する" %>  
+    <% end %>

@@ -1,2 +1,38 @@
-<h1>Items#show</h1>
-<p>Find me in app/views/items/show.html.erb</p>
+<h1>商品レビュー</h1>
+
+<div class="item-top">
+<%= image_tag @item.image.url %>
+<%= @item.name %>
+</div>
+
+
+<% @posts.each do |post| %>
+<div class="review-box">
+  満足度:<div id="star-rate-<%= post.id %>"></div>
+          <script>
+          $('#star-rate-<%= post.id %>').raty({
+            size: 36,
+            starOff:  '<%= asset_path('star-off.png') %>',
+            starOn : '<%= asset_path('star-on.png') %>',
+            starHalf: '<%= asset_path('star-half.png') %>',
+            half: true,
+            readOnly: true,
+            score: <%= post.rate %>,
+          });
+          </script>  
+タイトル:
+<%= post.title %><br>
+レビュー内容:
+<%= post.content %><br>
+
+</div>
+<% end %>
+
+<div class="btn btn--info btn--cubic btn--shadow">
+<%= link_to "レビューを書く", new_item_post_path(@item), data: {"turbolinks" => false} %>
+</div>
+<% if current_user.admin? %>
+<div class="btn btn--info btn--cubic btn--shadow">
+<%= link_to "この商品を削除する", admin_item_path, method: :delete,data: { confirm: '本当に削除してよろしいですか？' } %>
+<% end %>
+</div>

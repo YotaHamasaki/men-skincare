@@ -1,8 +1,30 @@
-<h1>商品一覧</h1>
-
-<ul>
+<ul class="list-unstyled">
+<div class="container">
+    <div class="border" style="padding:10px;">    
 <% @items.each do |item| %>
-    <li><%= item.image %></li>
-    <li><%= item.name %></li>
-</ul>    
+        <% if item.image? %>
+            <%=link_to image_tag(item.image.url), item_path(item),data: {"turbolinks" => false} %>
+        <% end %> 
+    <p class="pb-5"><%= item.name %></p>
+  
 <% end %>
+  </div>
+    </div>
+
+
+
+<%= paginate @items %>
+
+
+</ul>  
+
+<% 
+# @items.each のイメージ
+# Item.all = [item1, item2, item3, ...] なので
+# [item1, item2, item3, ...].each と似ている
+
+# [[item1, item2], [item3, item4], ...].each にできれば・・？
+# [[item1, item2], [item3, item4], ...].each do |items|
+#  item_a = items[0]
+#  item_b = items[1]
+%>

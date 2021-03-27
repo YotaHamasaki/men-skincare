@@ -1,0 +1,40 @@
+<div class="text-center">
+<h1 class="border-bottom">レビュー投稿</h1>
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+<%= form_with model: [@item, @post], url: item_posts_path do |f| %>
+
+<div class="pt-4">
+ <div class="field" id="star">
+  <%= f.label :rate, "満足度：" %>
+  <%= f.hidden_field :rate, id: :review_star, class: "form-control" %>
+     <script>
+      $('#star').raty({
+        size     : 36,
+        starOff:  '<%= asset_path('star-off.png') %>',
+        starOn : '<%= asset_path('star-on.png') %>',
+        starHalf: '<%= asset_path('star-half.png') %>',
+        scoreName: 'post[rate]',
+        half: true,
+      });
+      </script>  
+      </div>
+</div>
+
+<div class="pt-4">
+    <%= f.label :title, "タイトル" %>
+    <%= f.text_field :title, class: "form-control" %>
+ </div>   
+    
+ <div class="pt-4">   
+    <%= f.label :content, "レビュー本文" %>
+    <%= f.text_area :content, class: "form-control" %>
+ </div>  
+   
+   <div class="py-4">
+    <%= f.submit "投稿する",data: {"turbolinks" => false}, class: "btn btn-info" %>    
+   </div> 
+    
+<% end %>
+</div>
+</div>
