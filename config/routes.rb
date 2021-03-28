@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+    get "/" => 'toppages#top'
     root to: "toppages#index"
     get "login" , to: "sessions#new"
     post "login" , to: "sessions#create"
