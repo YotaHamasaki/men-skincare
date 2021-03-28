@@ -8,6 +8,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
+    @post.item_id = params[:item_id]
     if @post.save
        
       flash[:success] = "レビューを投稿しました"
@@ -46,7 +47,8 @@ class PostsController < ApplicationController
   private
   
   def post_params
-    params.require(:post).permit(:rate, :title, :content)
+    item = Item.find_by(params[:id])
+    params.require(:post).permit(:rate, :title, :content).merge(item_id: item.id)
   end
   
   
