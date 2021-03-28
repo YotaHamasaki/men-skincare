@@ -5,7 +5,7 @@
         <% if item.image? %>
             <%=link_to image_tag(item.image.url), item_path(item),data: {"turbolinks" => false} %>
         <% end %> 
-    <p class="pb-5"><%= item.name %></p>
+    <p class="pb-5"><%=link_to item.name,item_path(item),data: {"turbolinks" => false} %></p>
   
 <% end %>
   </div>
