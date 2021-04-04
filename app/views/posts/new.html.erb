@@ -2,7 +2,8 @@
 <h1 class="border-bottom">レビュー投稿</h1>
 <div class="row">
     <div class="col-md-6 offset-md-3">
-<%= form_with model: [@item, @post], url: item_posts_path do |f| %>
+<%= form_with model: [@item, @post], url: item_posts_path, local:true do |f| %>
+<%= render 'layouts/error_messages', model: f.object %>
 
 <div class="pt-4">
  <div class="field" id="star">
@@ -24,11 +25,18 @@
 <div class="pt-4">
     <%= f.label :title, "タイトル" %>
     <%= f.text_field :title, class: "form-control" %>
+    <div class="post-word">
+     <p>※20字以内</p>
+    </div>
  </div> 
     
  <div class="pt-4">   
     <%= f.label :content, "レビュー本文" %>
     <%= f.text_area :content, class: "form-control" %>
+    <div class="post-word">
+     <p>※300字以内</p>
+    </div>
+    
  </div>  
    
    <div class="py-4">

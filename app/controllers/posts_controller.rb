@@ -10,11 +10,10 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
     @post.item_id = params[:item_id]
     if @post.save
-       
       flash[:success] = "レビューを投稿しました"
       redirect_to item_path(id: @post.item_id)
     else
-      flash.now[:danger] = "レビューの投稿に失敗しました"
+      flash.now[:danger] = "投稿に失敗しました"
       render("posts/new")
     end
   end
