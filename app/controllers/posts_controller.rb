@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     if @post.save
        
       flash[:success] = "レビューを投稿しました"
-      redirect_to("/items")
+      redirect_to item_path(id: @post.item_id)
     else
       flash.now[:danger] = "レビューの投稿に失敗しました"
       render("posts/new")
@@ -44,12 +44,12 @@ class PostsController < ApplicationController
     redirect_to user_path
   end
   
+
   private
   
   def post_params
     item = Item.find_by(params[:id])
     params.require(:post).permit(:rate, :title, :content).merge(item_id: item.id)
   end
-  
-  
+
 end
