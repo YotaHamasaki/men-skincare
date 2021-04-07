@@ -3,12 +3,11 @@ class PostsController < ApplicationController
   def new
     @post = Post.new
     @item = Item.find(params[:item_id])
-    
   end
 
   def create
     @post = Post.new(post_params)
-    @post.item_id = params[:item_id]
+    @post.user = current_user
     if @post.save
       flash[:success] = "レビューを投稿しました"
       redirect_to item_path(id: @post.item_id)
@@ -47,8 +46,8 @@ class PostsController < ApplicationController
   private
   
   def post_params
-    item = Item.find_by(params[:id])
-    params.require(:post).permit(:rate, :title, :content).merge(item_id: item.id)
+    params.require(:post).permit(:rate, :title, :content)
+    .merge(user_id: current_user.id,item_id: params[:item_id])
   end
 
 end

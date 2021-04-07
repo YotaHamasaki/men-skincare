@@ -8,5 +8,6 @@ class Post < ApplicationRecord
     validates :rate, presence: true
     validates :title,length: {maximum: 20}, presence: true
     validates :content,length: {maximum: 300},  presence: true
+    validates :user_id, presence: true
 end
 

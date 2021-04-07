@@ -9,4 +9,10 @@
 <tr>
 <h3><th>メールアドレス： <%= @user.email %></th></h3>
 </tr>
+
+<% @posts.each do |post| %>
+<%= post.title %>
+<%= post.content %>
+<% end %>
+
 </div>
