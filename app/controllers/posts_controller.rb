@@ -1,5 +1,8 @@
 class PostsController < ApplicationController
   
+  before_action :correct_user, only: [:destroy]
+  
+  
   def new
     @post = Post.new
     @item = Item.find(params[:item_id])
@@ -18,10 +21,8 @@ class PostsController < ApplicationController
   end
 
   def edit
-    @user = User.find(params[:id])
-    @post = @user.posts
-    
-    
+    @user = current_user
+    @post = @user.posts.find(params[:id])
   end
 
   def update
@@ -48,6 +49,13 @@ class PostsController < ApplicationController
   def post_params
     params.require(:post).permit(:rate, :title, :content)
     .merge(user_id: current_user.id,item_id: params[:item_id])
+  end
+
+    def correct_user
+    @post = current_user.posts.find_by(id: params[:id])
+    unless @post
+      redirect_to user_path
+    end
   end
 
 end

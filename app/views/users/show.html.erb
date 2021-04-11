@@ -1,6 +1,6 @@
 <h1>会員情報</h1>
 
-<div class="pt-3">
+
 <table class="table table-bordered">
 <tr>
 <h3><th>名前：<%= @user.name %></th></h3>
@@ -10,9 +10,35 @@
 <h3><th>メールアドレス： <%= @user.email %></th></h3>
 </tr>
 
+<div class="card">
+  <div class="card-header">
+レビュー投稿履歴
+  </div>
+   <div class="card-body">
 <% @posts.each do |post| %>
-<%= post.title %>
-<%= post.content %>
+  <div class:"card-text">
+  満足度: <div id="star-rate-<%= post.id %>"></div>
+          <script>
+          $('#star-rate-<%= post.id %>').raty({
+            size: 36,
+            starOff:  '<%= asset_path('star-off.png') %>',
+            starOn : '<%= asset_path('star-on.png') %>',
+            starHalf: '<%= asset_path('star-half.png') %>',
+            half: true,
+            readOnly: true,
+            score: <%= post.rate %>,
+          });
+          </script></div>
+<div class:"card-text">
+  タイトル:<%= post.title %><br></div>
+<div class:"card-text">
+レビュー内容:<%= post.content %><br></div>
+<div class="btn btn--info btn--cubic btn--shadow">
+<%= link_to "編集", edit_user_post_path(@user,post), data: {"turbolinks" => false} %>
+</div>
+<div class="btn btn--info btn--cubic btn--shadow">
+<%= link_to "削除", user_post_path(@user,post), method: :delete, data: { confirm: '本当に削除してよろしいですか？' } %>
+</div>
+</div>
 <% end %>
 
-</div>

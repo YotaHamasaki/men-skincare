@@ -1,6 +1,6 @@
 <h1>レビュー編集</h1>
 
-<%= form_with model: @post, url: edit_item_post_path do |f| %>
+<%= form_with model: @post, url: edit_user_post_path, local:true, method: :patch do |f| %>
 <%= render 'layouts/error_messages', model: f.object %>
 
  <div class="field" id="star">
