@@ -1,4 +1,7 @@
 class ItemsController < ApplicationController
+  
+  before_action :authenticate_user
+  
   def index
     @items = Item.all.page(params[:page]).per(10)
   end
@@ -6,10 +9,6 @@ class ItemsController < ApplicationController
   def show
     @item = Item.find(params[:id])
     @posts = @item.posts
-  end
-
-  def new
-    @item = Item.new 
   end
 
   def create

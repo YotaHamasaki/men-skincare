@@ -1,4 +1,7 @@
 class SessionsController < ApplicationController
+    
+    before_action :already_login, only: [:new]
+    
     def new
     end
     

@@ -1,5 +1,5 @@
 class Admin::ItemsController < ApplicationController
-  before_action :not_admin
+  before_action :if_not_admin 
    def new
     @item = Item.new 
   end
@@ -14,10 +14,7 @@ class Admin::ItemsController < ApplicationController
       render("items/new")
      end
   end    
-  
-  def show
-    @item = Item.find(params[:id])
-  end
+
   
   def destroy
     @item = Item.find(params[:id])
@@ -26,7 +23,7 @@ class Admin::ItemsController < ApplicationController
     redirect_to("/items")
   end
     
-  end
+
       
   private
   
@@ -34,8 +31,10 @@ class Admin::ItemsController < ApplicationController
         @current_user ||= User.find_by(id: session[:user_id])
     end
   
-  def not_admin
+  def if_not_admin
     unless current_user.admin? 
-    redirect_to("/items")
-    end
+    flash[:danger] = "このユーザーでは表示できません"
+    redirect_back(fallback_location:items_path)
   end
+end
+end

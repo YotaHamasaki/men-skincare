@@ -1,11 +1,14 @@
-<h1>レビュー編集</h1>
-
-<%= form_with model: @post, url: edit_user_post_path, local:true, method: :patch do |f| %>
+<div class="text-center">
+<h1 class="border-bottom">レビュー編集</h1>
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+<%= form_with model: @post, url: user_post_path, local:true, method: :patch do |f| %>
 <%= render 'layouts/error_messages', model: f.object %>
 
+<div class="pt-4">
  <div class="field" id="star">
   <%= f.label :rate, "満足度：" %>
-  <%= f.hidden_field :rate, id: :review_star %>
+  <%= f.hidden_field :rate, id: :review_star, class: "form-control" %>
      <script>
       $('#star').raty({
         size     : 36,
@@ -17,12 +20,30 @@
       });
       </script>  
 </div>
+</div>
 
+<div class="pt-4">
     <%= f.label :title, "タイトル" %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: "form-control" %>
+    <div class="post-word">
+     <p>※20字以内</p>
+    </div>
+ </div>   
     
+ <div class="pt-4">   
     <%= f.label :content, "レビュー本文" %>
-    <%= f.text_area :content %>
-   
-    <%= f.submit "編集する" %>  
+    <%= f.text_area :content, class: "form-control" %>
+    <div class="post-word">
+     <p>※300字以内</p>
+    </div>
+ </div>  
+ 
+ <div class="py-4">  
+  <div class="submit">
+    <%= f.submit "編集する", class: "btn btn-info" %>  
+  </div>
+</div>
     <% end %>
+ </div>
+</div>
+</div>

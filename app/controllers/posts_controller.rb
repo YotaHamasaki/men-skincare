@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   
   before_action :correct_user, only: [:destroy]
+  before_action :authenticate_user 
   
   
   def new
@@ -29,7 +30,7 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     if @post.update(post_params)
       flash[:success] = "投稿を編集しました"
-      redirect_to items_path
+      redirect_to user_path
     else
       flash[:danger] = "投稿を編集できませんでした"
       render("posts/edit")
