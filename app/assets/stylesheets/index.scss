@@ -1,0 +1,31 @@
+.flex_box {
+  background-color: #eee;      
+    padding:  10px;             
+    height: 300px;              
+    display: flex;              
+    flex-wrap: wrap;            
+    align-content:stretch; 
+}
+
+.flex_item {
+    padding: 10px;
+    color:  #fff;               
+    margin:  10px;              
+    border-radius:  5px;        
+    font-size:  30px;         
+    width: 200px;               
+    text-align:  center;    
+}
+
+  .Editlink {
+    text-decoration: none;
+    color: black ;
+  }
+  
+  .card {
+    margin-top: 80px;
+  }
+  
+  .category_bar {
+    margin-top: 15px;
+  }
