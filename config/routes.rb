@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     get "items" , to: "items#index"
     
     namespace :admin do
-        resources :items, only:[:new, :create, :show, :destroy]   
+        resources :items, only:[:new, :create, :show,:edit, :update, :destroy]   
     end
     
     resources :items, only:[:show, :destroy]  do

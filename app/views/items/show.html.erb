@@ -1,4 +1,10 @@
-<h1>商品レビュー</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      
+<div class="mt-5">
+<u><h2>商品レビュー</h2></u>
+</div>
 
 <div class="item-top">
 <%= image_tag @item.image.url %>
@@ -33,5 +39,11 @@
 <% if current_user.admin? %>
 <div class="btn btn--info btn--cubic btn--shadow">
 <%= link_to "この商品を削除する", admin_item_path, method: :delete,data: { confirm: '本当に削除してよろしいですか？' } %>
+</div>
+<div class="btn btn--info btn--cubic btn--shadow">
+<%= link_to "この商品を編集する", edit_admin_item_path %>
 <% end %>
+</div>
+</div>
+</div>
 </div>

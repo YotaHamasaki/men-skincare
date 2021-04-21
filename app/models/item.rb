@@ -21,4 +21,5 @@ class Item < ApplicationRecord
     
     validates :name, presence: true
     validates :image, presence: true
+    validates :maker, presence: true
 end

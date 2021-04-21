@@ -38,8 +38,10 @@
         <% end %> 
         <div class="card-body">
           <h5 class="card-title"><%=link_to item.name,item_path(item),class: "Editlink",data: {"turbolinks" => false} %></h5>
+          <p class="card-text"><%= item.maker %></p>
           <p class="card-text">レビュー数:<%= item.posts.count %>件</p>
           <p class="card-text">レビュー平均点:<%= item.avg_rate %>/5.0</p>
+
     </div>
      </div>
      </div>

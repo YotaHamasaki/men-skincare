@@ -16,6 +16,21 @@ class Admin::ItemsController < ApplicationController
       render("admin/items/new")
      end
   end    
+  
+    def  edit
+    @item = Item.find(params[:id])
+  end
+  
+  def update
+      @item = Item.find(params[:id])
+    if @item.update(items_params)
+      flash[:success] = "商品を編集しました"
+      redirect_to item_path
+    else
+      flash[:danger] = "商品を編集できませんでした"
+      render("itemss/edit")
+  end
+end
 
   
   def destroy
@@ -41,7 +56,7 @@ class Admin::ItemsController < ApplicationController
 end
 
  def items_params
-    params.require(:item).permit(:name, :image, :category_name)
+    params.require(:item).permit(:name, :image, :maker, :category_name)
     
   end
   
