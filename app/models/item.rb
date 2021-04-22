@@ -19,6 +19,14 @@ class Item < ApplicationRecord
         end
     end
     
+    def self.search(search) 
+     if search
+       where(['name LIKE ?', "%#{search}%"])
+    else
+       all
+    end
+ end
+    
     validates :name, presence: true
     validates :image, presence: true
     validates :maker, presence: true
