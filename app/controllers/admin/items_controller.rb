@@ -8,8 +8,9 @@ class Admin::ItemsController < ApplicationController
 
   def create
     @item = Item.new(items_params)
+    @item.category = Category.find_by(params[:id])
     if @item.save
-      flash[:success] = "登録に成功しました"
+      flash[:success] = "商品を登録しました"
       redirect_to items_path
     else
       flash.now[:danger] = "登録に失敗しました"
@@ -56,7 +57,7 @@ end
 end
 
  def items_params
-    params.require(:item).permit(:name, :image, :maker, :category_name)
+    params.require(:item).permit(:name, :image, :maker, :category_name).merge(category_id: params[:category_id])
     
   end
   

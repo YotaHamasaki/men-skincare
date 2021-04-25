@@ -17,4 +17,7 @@ Rails.application.routes.draw do
     resources :items, only:[:show, :destroy]  do
         resources :posts, only:[:new, :create]
     end
+    
+    resources :categories, only: [:index, :show]
+    
 end    

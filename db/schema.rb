@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_21_143207) do
+ActiveRecord::Schema.define(version: 2021_04_24_053712) do
 
   create_table "categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "category_name", null: false
@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(version: 2021_04_21_143207) do
     t.datetime "updated_at", null: false
     t.string "category_name"
     t.string "maker"
+    t.bigint "category_id"
+    t.index ["category_id"], name: "index_items_on_category_id"
   end
 
   create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -58,6 +60,7 @@ ActiveRecord::Schema.define(version: 2021_04_21_143207) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "items", "categories"
   add_foreign_key "posts", "items"
   add_foreign_key "posts", "users"
 end

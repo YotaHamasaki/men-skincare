@@ -11,19 +11,12 @@ class Item < ApplicationRecord
         end
     end
     
-       def post_score_percentage
-        unless self.posts.empty?
-            posts.average(:rate).round(0.5).to_f*100/5
-        else
-            0.0
-        end
-    end
-    
     def self.search(search) 
      if search
        where(['name LIKE ?', "%#{search}%"])
     else
-       all
+       all 
+     
     end
  end
     
