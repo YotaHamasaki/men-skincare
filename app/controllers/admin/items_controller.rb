@@ -8,7 +8,7 @@ class Admin::ItemsController < ApplicationController
 
   def create
     @item = Item.new(items_params)
-    if @item.save!
+    if @item.save
       flash[:success] = "商品を登録しました"
       redirect_to items_path
     else

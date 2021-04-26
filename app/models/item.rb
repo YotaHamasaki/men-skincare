@@ -24,5 +24,4 @@ class Item < ApplicationRecord
     validates :image, presence: true
     validates :maker, presence: true
     validates :category_id, presence: true
-    # validates :category_name, presence: true
 end
