@@ -28,7 +28,7 @@ class Admin::ItemsController < ApplicationController
       redirect_to item_path
     else
       flash[:danger] = "商品を編集できませんでした"
-      render("itemss/edit")
+      render :edit
   end
 end
 

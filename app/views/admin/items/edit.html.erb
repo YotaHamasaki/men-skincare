@@ -16,7 +16,7 @@
 
 <div class="pt-4">
   <%= f.label :category_name, "カテゴリ" %><br>
-  <%= f.collection_select :category_name, Category.all, :category_name, :category_name, class: "form-control", include_blank: "選択して下さい"   %> 
+  <%= f.collection_select :category_id, Category.all, :id, :category_name, class: "form-control", include_blank: "選択して下さい"   %> 
 </div>  
 
 <div class="pt-4">
