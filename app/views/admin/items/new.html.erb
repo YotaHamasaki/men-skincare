@@ -1,37 +1,4 @@
 <div class="text-center">
 <h1 class="border-bottom">商品新規登録</h1>
-<div class="row">
-    <div class="col-md-6 offset-md-3">
-<%= form_with(model:[:admin, @item], local: true) do |f| %>
-
-<div class="pt-4">
-<%= f.label :name, "商品名" %>
-<%=f.text_field :name, class: "form-control" %>
-</div>
-
-<div class="pt-4">
-<%= f.label :maker, "メーカー名" %>
-<%=f.text_field :maker, class: "form-control" %>
-</div>
-
-<div class="pt-4">
-  <%= f.label :category_name, "カテゴリ" %><br>
-  <%= f.collection_select :category_id, Category.all, :id, :category_name, class: "form-control", include_blank: "選択して下さい"   %> 
-</div>  
-
-<div class="pt-4">
-  <div class="field">
-    <%= f.label :image, "商品画像" %>
-    <%= f.file_field :image, class: "form-control" %>
-  </div>
-</div>  
-  
-<div class="py-4">  
-  <div class="submit">
-      <%= f.submit "登録する", class: "btn btn-info" %>
-  </div>
-</div>
-<% end %>
-</div>
-</div>
+<%= render "admin_items" %>
 </div>
