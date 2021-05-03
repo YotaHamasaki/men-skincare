@@ -9,7 +9,6 @@
           <div class="nav-link active"><%= link_to category.category_name, categories_path(category_id: category.id), class: "Editlink" %></div>
         </li>
         </ul>
-        
     <% end %>   
 
 <div class="search">    
@@ -49,6 +48,6 @@
     </div>
 </div>
 
-<%= paginate @items %>
+<div class="p-top__pagenate"><%= paginate @items %></div>
 
 </ul>  

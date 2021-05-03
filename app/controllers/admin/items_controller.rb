@@ -1,7 +1,7 @@
 class Admin::ItemsController < ApplicationController
   before_action :if_not_admin 
   
-   def new
+  def new
     @admin =  User.find(4)
     @item = Item.new
   end
@@ -17,7 +17,7 @@ class Admin::ItemsController < ApplicationController
      end
   end    
   
-    def  edit
+  def  edit
     @item = Item.find(params[:id])
   end
   
@@ -31,7 +31,6 @@ class Admin::ItemsController < ApplicationController
       render :edit
   end
 end
-
   
   def destroy
     @item = Item.find(params[:id])
@@ -40,13 +39,8 @@ end
     redirect_to("/items")
   end
     
-
-      
+    
   private
-  
-    def current_user
-        @current_user ||= User.find_by(id: session[:user_id])
-    end
   
   def if_not_admin
     unless current_user.admin? 
@@ -59,6 +53,5 @@ end
     params.require(:item).permit(:name, :image, :maker, :category_name, :category_id)
     
   end
-  
 
 end

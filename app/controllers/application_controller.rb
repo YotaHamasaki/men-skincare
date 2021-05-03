@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
     !!current_user
   end
   
+  #未ログインユーザーのトップページ以降へのアクセスを制限
   def authenticate_user
     if current_user == nil
       flash[:danger] = "ログインしてください"
@@ -15,6 +16,15 @@ class ApplicationController < ActionController::Base
     end
   end
   
+  #ログインユーザー本人かどうか検証
+  def correct_user
+    @post = current_user.posts.find_by(id: params[:id])
+    unless @post
+      redirect_to user_path
+    end
+  end
+  
+  #既にログインしているか検証
   def already_login
     if current_user
       flash[:success] = "すでにログインしています"

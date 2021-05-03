@@ -33,7 +33,7 @@ class PostsController < ApplicationController
       redirect_to user_path
     else
       flash[:danger] = "投稿を編集できませんでした"
-      render("posts/edit")
+      render :edit
     end
     
   end
@@ -50,13 +50,6 @@ class PostsController < ApplicationController
   def post_params
     params.require(:post).permit(:rate, :title, :content)
     .merge(user_id: current_user.id,item_id: params[:item_id])
-  end
-
-    def correct_user
-    @post = current_user.posts.find_by(id: params[:id])
-    unless @post
-      redirect_to user_path
-    end
   end
 
 end
