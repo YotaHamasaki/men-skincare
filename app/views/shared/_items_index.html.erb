@@ -31,8 +31,8 @@
 
      <% @items.each do |item| %>
      <div class="col-lg-3 col-md-6 mb-4">
-      <div class="card-deck" style="width: 19rem;">
-      <div class="card">
+       <div class="card-deck" style="width: 19rem;">
+        <div class="card">
         <% if item.image? %>
             <div class="card-img-top"><%= link_to image_tag(item.image.url), item_path(item),data: {"turbolinks" => false} %></div>
         <% end %> 
@@ -42,10 +42,10 @@
           <p class="card-text">レビュー数:<%= item.posts.count %>件</p>
           <p class="card-text">レビュー平均点:<%= item.avg_rate %>/5.0</p>
 
+         </div>
+      </div>
+       </div>
     </div>
-     </div>
-     </div>
-     </div>
     <% end %> 
     </div>
 </div>
