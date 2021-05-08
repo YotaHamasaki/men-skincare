@@ -61,7 +61,7 @@ gem 'pry-rails'
   
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
-  gem 'unicorn', '5.4.1'
+  # gem 'unicorn', '5.4.1'
 end
 
 gem 'rails-i18n'
