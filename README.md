@@ -1,24 +1,26 @@
-# README
+#タイトル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<作成背景>
+メンズ限定のスキンケア用品のクチコミサイトです。
+私自身、化粧水や乳液を買おうと思って色々調べてみた際にどの商品も女性の方の感想やレビューしか無く、
+「これは男性でも使えるのか？」、「そもそも男性で使っている人がいるのか？」等の情報が無く困った経験があります。
+これは周囲の友人に聞いても同様であったため、世の中の男性がもっと自由にスキンケア用品の情報交換ができる場を作りたいと思い、作成しました。
 
-Things you may want to cover:
+<アピールポイント>
 
-* Ruby version
+#URL
 
-* System dependencies
+<使用技術>
+・Ruby -v
+・Ruby on Rails -v
+・javascript -v
+・MySQL -v
+・Puma
+・AWS
+・
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<機能一覧>
+・検索機能
+・ページネーション
+・星表示機能
+・投稿機能
