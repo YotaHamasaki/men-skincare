@@ -2,7 +2,7 @@ class Admin::ItemsController < ApplicationController
   before_action :if_not_admin 
   
   def new
-    @admin =  User.find(4)
+    @admin =  User.find(2)
     @item = Item.new
   end
 
