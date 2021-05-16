@@ -22,11 +22,10 @@ ActiveRecord::Schema.define(version: 2021_04_24_053712) do
   create_table "items", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.string "image"
+    t.bigint "category_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "category_name"
     t.string "maker"
-    t.bigint "category_id"
     t.index ["category_id"], name: "index_items_on_category_id"
   end
 
@@ -35,28 +34,19 @@ ActiveRecord::Schema.define(version: 2021_04_24_053712) do
     t.bigint "item_id"
     t.string "title"
     t.string "content"
-    t.integer "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.float "rate"
+    t.float "rate", default: 0.0, null: false
     t.index ["item_id"], name: "index_posts_on_item_id"
     t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
-  create_table "sessions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.integer "age"
     t.string "email"
     t.string "password_digest"
-    t.boolean "admin"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "post_id"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
