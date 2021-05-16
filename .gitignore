@@ -23,4 +23,5 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-seeds.rb
+; /migrate/seeds.rb
+; /config/database.yml
