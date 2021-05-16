@@ -60,7 +60,6 @@ gem 'jquery-rails'
 gem 'pry-rails'
   
 group :production do
-  gem 'mysql2', '>= 0.4.4', '< 0.6.0'
   gem 'unicorn', '5.4.1'
 end
 
