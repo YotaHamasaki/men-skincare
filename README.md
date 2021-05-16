@@ -11,16 +11,19 @@
 #URL
 
 <使用技術>
-・Ruby -v
-・Ruby on Rails -v
-・javascript -v
-・MySQL -v
+・Ruby -2.5.3
+・Ruby on Rails -5.2.6
+・javascript 
+・MySQL -5.7.34
 ・Puma
 ・AWS
 ・
 
 <機能一覧>
-・検索機能
-・ページネーション
-・星表示機能
-・投稿機能
+・商品検索機能
+・ページネーション(kaminari)
+・星表示機能(raty.js)
+・画像投稿機能(CarrierWave)
+・ユーザー登録、ログイン機能
+・カテゴリ別表示
+・adminユーザー機能
