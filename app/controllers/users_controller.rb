@@ -14,7 +14,7 @@ class UsersController < ApplicationController
         redirect_to login_path
       else
         flash[:danger] = "新規登録に失敗しました"
-        render signup_path
+        render action: :new
       end
   end
 
