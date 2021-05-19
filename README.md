@@ -11,8 +11,8 @@
 #URL
 
 <使用技術>
-・Ruby -2.5.3
-・Ruby on Rails -5.2.6
+・Ruby -2.7.0
+・Ruby on Rails -6.1.3.2
 ・javascript 
 ・MySQL -5.7.34
 ・Puma
