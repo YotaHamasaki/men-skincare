@@ -59,7 +59,3 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-
-server "52.198.214.123", user: "yota", roles: %w{app db web}
-
-set :ssh_options, keys: '~/desktop/men-skincare.pem' 
