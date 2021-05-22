@@ -16,8 +16,13 @@
 ・javascript 
 ・MySQL -5.7.34
 ・Puma
+・Nginx
 ・AWS
-・
+  -VPC
+  -EC2
+  -RDS
+  -S3
+  -CloudFront
 
 <機能一覧>
 ・商品検索機能
