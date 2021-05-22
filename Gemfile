@@ -59,12 +59,7 @@ gem 'jquery-rails'
 
 gem 'pry-rails'
 
-group :development, :test do
- gem 'capistrano'
- gem 'capistrano-bundler'
- gem 'capistrano-rails'
- gem 'capistrano-rbenv'
-end
+
   
 group :production do
   gem 'unicorn', '5.4.1'
