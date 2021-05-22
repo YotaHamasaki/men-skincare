@@ -62,4 +62,4 @@
 
 server "52.198.214.123", user: "yota", roles: %w{app db web}
 
-set :ssh_options, keys: '~/desktop/men-skincare.pem' 
+set :ssh_options, keys: '~/.ssh/id_rsa' 
