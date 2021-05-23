@@ -3,7 +3,9 @@
     <div class="col-md-9">
       
 <div class="mt-5">
-<u><h2>商品レビュー</h2></u>
+  <div class="info-title">
+<h2>商品レビュー</h2>
+</div>
 </div>
 
 <div class="item-top">
@@ -13,7 +15,7 @@
 
 
 <% @posts.each do |post| %>
-<div class="review-box">
+<div class="box-review">
   満足度:<div id="star-rate-<%= post.id %>"></div>
           <script>
           $('#star-rate-<%= post.id %>').raty({

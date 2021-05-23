@@ -3,20 +3,23 @@
     <div class="col-md-9">
 
 <div class="mt-5">
-<u><h2>マイページ</h2></u>
+  <div class="info-title">
+<h2>登録情報</h2>
+</div>
 </div>
 
     
-<div class="py-5">
-<ul class="list-group">
- <li class="list-group-item"><h4>名前：<%= @user.name %></h4></li>
-<li class="list-group-item"><h4>メールアドレス： <%= @user.email %></h4></li>
+<div class="py-2">
+<ul class="box-info">
+ <li><h5>名前：<%= @user.name %></h5></li>
+ <li><h5>メールアドレス： <%= @user.email %></h5></li>
 </ul>
 </div>
-
-<u><h2>レビュー投稿履歴</h2></u>
+ <div class="info-title">
+<h2>レビュー投稿履歴</h2>
+</div>
 <% @posts.each do |post| %>
-<div class="review-box">
+<div class="box-review">
   満足度: <div id="star-rate-<%= post.id %>"></div>
           <script>
           $('#star-rate-<%= post.id %>').raty({

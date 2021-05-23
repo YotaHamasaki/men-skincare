@@ -60,3 +60,11 @@
 #     # password: "please use keys"
 #   }
 server ' 52.198.214.123', user: 'ec2-user', roles: %w{app db web}
+
+set :ssh_otions, {
+    port: 22,
+    keys: '~/.ssh/id_rsa',
+    user: "ec2-user",
+    forward_agent: true,
+    auth_methods: %w(publickey)
+}
