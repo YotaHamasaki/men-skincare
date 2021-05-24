@@ -59,9 +59,11 @@ gem 'jquery-rails'
 
 gem 'pry-rails'
 
-
-
 gem 'rails-i18n'
 
 
 gem "fog-aws", "~> 3.10"
+
+group :production, :staging do
+  gem 'unicorn'
+end
