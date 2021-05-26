@@ -12,6 +12,10 @@ https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif
 
 <アピールポイント>
 
+<img src="https://raw.github.com/wiki/user/men-skincare/images/app_overview.gif" width="300">
+
+
+
 <URL>
 
 <使用技術>
