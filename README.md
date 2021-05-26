@@ -9,7 +9,7 @@
 
 <アピールポイント>
 
-<img src="https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif" width="300">
+<img src="https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif">
 
 
 <URL>
