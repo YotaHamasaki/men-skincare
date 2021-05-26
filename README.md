@@ -10,7 +10,7 @@
 <アピールポイント>
 
 ![gif]
-(https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif)
+(https://github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif)
 
 <URL>
 
