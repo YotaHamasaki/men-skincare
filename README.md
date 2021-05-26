@@ -9,7 +9,17 @@
 以下アプリの簡単な概要です。  
 ![overview](https://user-images.githubusercontent.com/79210669/119690043-4fe06a80-be84-11eb-987e-d0a1d6a87b55.gif)
 
-ユーザーが迷わず、シンプルに使えるように意識して作成しました。
+ユーザーが迷わず、シンプルに使えるように意識して作成しました。  
+また管理者ユーザーと一般ユーザーで操作権限が異なるように実装しています。
+
+管理者ユーザー  
+ email:boss@gmail.com  
+ pass:boss
+ 
+ 一般ユーザー　　
+　email:test@gmail.com  
+  pass:test  
+  もしくは新規作成ユーザー
 
 ## 使用技術  
 - Ruby -2.7.0  
