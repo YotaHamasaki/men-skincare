@@ -8,7 +8,7 @@
 この経験は周囲の友人に聞いても同様であったため、世の中の男性がもっと自由にスキンケア用品の情報交換ができる場があれば良いのになと思い、作成しました。
 
 ![gif]
-https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif
+(https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif)
 
 <アピールポイント>
 
