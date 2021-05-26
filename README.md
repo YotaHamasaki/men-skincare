@@ -17,11 +17,9 @@
  　pass:boss
  
  一般ユーザー　　
- 
-　email:test@gmail.com
- 
-  pass:test  
-  もしくは新規作成ユーザー
+　 email:test@gmail.com
+   pass:test  
+   もしくは新規作成ユーザー
 
 ## 使用技術  
 - Ruby -2.7.0  
