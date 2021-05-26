@@ -9,6 +9,9 @@
 
 <アピールポイント>
 
+![gif]
+(https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif)
+
 <URL>
 
 <使用技術>
