@@ -16,9 +16,9 @@
  　email:boss@gmail.com  
  　pass:boss
  
- 一般ユーザー  　　
+ 一般ユーザー  　
 　 email:test@gmail.com  
-   pass:test    
+   pass:test  
    もしくは新規作成ユーザー  
 
 ## 使用技術  
