@@ -16,13 +16,13 @@
 ・MySQL -5.7.34  
 ・Nginx  
 ・puma  
- +AWS  
- +VPC  
- +EC2  
- +Route53   
- +RDS  
- +S3  
- +CloudFront  
+  -AWS  
+  -VPC  
+  -EC2  
+  -Route53   
+  -RDS  
+  -S3  
+  -CloudFront  
   
 
 <機能一覧>
