@@ -7,8 +7,7 @@
 「これは男性でも使えるのか？」、「そもそも男性で使っている人がいるのか？」等の情報が無く困った経験があります。
 この経験は周囲の友人に聞いても同様であったため、世の中の男性がもっと自由にスキンケア用品の情報交換ができる場があれば良いのになと思い、作成しました。
 
-
-https://raw.github.com/wiki/yotahamasaki/men-skincare/images/app_overview.gif
+<img alt=”app_overview.gif” src=”https://raw.github.com/wiki/YotaHamasaki/men-skincare/images/app_overview.gif” />
 
 <アピールポイント>
 
