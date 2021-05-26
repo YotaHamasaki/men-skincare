@@ -22,6 +22,7 @@
    pass:test  
    もしくは新規作成ユーザー  
 
+
 ## 使用技術  
 - Ruby -2.7.0  
 - Ruby on Rails -6.1.3.2  
@@ -36,6 +37,7 @@
   - RDS  
   - S3  
   - CloudFront  
+  
   
 
 ## 機能一覧
