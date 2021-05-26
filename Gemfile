@@ -61,8 +61,7 @@ gem 'pry-rails'
 
 gem 'rails-i18n'
 
-
-gem "fog-aws", "~> 3.10"
+gem 'fog-aws'
 
 group :production, :staging do
   gem 'unicorn'
