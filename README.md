@@ -9,6 +9,8 @@
 以下アプリの簡単な概要です。  
 ![overview](https://user-images.githubusercontent.com/79210669/119690043-4fe06a80-be84-11eb-987e-d0a1d6a87b55.gif)
 
+ユーザーが迷わず、シンプルに使えるように意識して作成しました。
+
 ## 使用技術  
 - Ruby -2.7.0  
 - Ruby on Rails -6.1.3.2  
