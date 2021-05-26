@@ -13,11 +13,13 @@
 また管理者ユーザーと一般ユーザーで操作権限が異なるように実装しています。
 
 管理者ユーザー  
- email:boss@gmail.com  
- pass:boss
+ 　email:boss@gmail.com  
+ 　pass:boss
  
  一般ユーザー　　
-　email:test@gmail.com  
+ 
+　email:test@gmail.com
+ 
   pass:test  
   もしくは新規作成ユーザー
 
