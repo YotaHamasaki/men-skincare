@@ -19,8 +19,8 @@
  
  一般ユーザー:  
 　 email:test@example.com  
-     pass:test  
-     もしくは新規作成ユーザー  
+   pass:test  
+   もしくは新規作成ユーザー  
 
 
 ## 使用技術  
