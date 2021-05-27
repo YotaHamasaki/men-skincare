@@ -14,11 +14,11 @@
 また管理者ユーザーと一般ユーザーで操作権限が異なるように実装しています。(アイテムの登録や削除、編集は管理者ユーザーのみ可能)
 
 管理者ユーザー  
- 　email:boss@gmail.com  
- 　pass:boss
+ 　email:admin@example.com 
+ 　pass:admin
  
  一般ユーザー  
-　 email:test@gmail.com  
+　 email:test@example.com  
    pass:test  
    もしくは新規作成ユーザー  
 
