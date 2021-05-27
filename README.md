@@ -18,8 +18,8 @@
  　pass:admin
  
  一般ユーザー  
-   email:test@example.com  
-   pass:test  
+ 　email:test@example.com  
+ 　pass:test  
    もしくは新規登録ユーザー
 
 
