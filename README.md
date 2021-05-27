@@ -20,7 +20,7 @@
  一般ユーザー  
  　email:test@example.com  
  　pass:test  
-   もしくは新規登録ユーザー
+ 　もしくは新規登録ユーザー
 
 
 ## 使用技術  
