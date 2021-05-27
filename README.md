@@ -27,6 +27,8 @@
 - Ruby -2.7.0  
 - Ruby on Rails -6.1.3.2  
 - javascript  
+- CSS
+- bootstrap
 - jquery -3.3.1
 - MySQL -5.7.34  
 - Nginx  
