@@ -14,7 +14,7 @@
 また管理者ユーザーと一般ユーザーで操作権限が異なるように実装しています。(アイテムの登録や削除、編集は管理者ユーザーのみ可能)
 
 管理者ユーザー  
- 　email:admin@example.com 
+ 　email:admin@example.com  
  　pass:admin
  
  一般ユーザー  
