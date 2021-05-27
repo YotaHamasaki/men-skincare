@@ -28,7 +28,7 @@
 - Ruby on Rails -6.1.3.2  
 - javascript  
 - jquery -3.3.1
-- CSS
+- HTML/CSS
 - bootstrap
 - MySQL -5.7.34  
 - Nginx  
@@ -57,4 +57,7 @@
 - 商品、ユーザー、クチコミ投稿のCRUD  
 
 
-## これから実装したいと考えている機能
+## これから取り入れたいと考えている機能
+- dockerによる環境構築
+- CI/CDの導入
+- 各種APIを使用してのSNS認証
