@@ -1,0 +1,682 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2040,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "1W9kQgnwFPAC",
+      "etag": "2Lq5fh3aXiQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1W9kQgnwFPAC",
+      "volumeInfo": {
+        "title": "新訂情報検索の知識と技術",
+        "subtitle": "情報検索応用能力試験2級対応テキスト",
+        "authors": [
+          "時実象一",
+          "小野寺夏生",
+          "都築泉"
+        ],
+        "publisher": "INFOSTA",
+        "publishedDate": "2010-05",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "488951046X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9784889510461"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 268,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1W9kQgnwFPAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1W9kQgnwFPAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=1W9kQgnwFPAC&pg=PA93&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=1W9kQgnwFPAC&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E6%96%B0%E8%A8%82%E6%83%85%E5%A0%B1%E6%A4%9C%E7%B4%A2%E3%81%AE%E7%9F%A5%E8%AD%98%E3%81%A8%E6%8A%80%E8%A1%93.html?hl=&id=1W9kQgnwFPAC"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1W9kQgnwFPAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "株式会社ジー・\u003cb\u003eサーチ\u003c/b\u003eにより提供されている G - \u003cb\u003eSearch\u003c/b\u003e データベースサービスに\u003cbr\u003e\nは、 100 種類以上のデータベースが搭載され、企業情報、新聞記事情報、人物\u003cbr\u003e\nプロフィール情報、科学\u003cb\u003e技術\u003c/b\u003e情報や法律・特許など様々な分野の情報が集められ\u003cbr\u003e\nて&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "336eDgAAQBAJ",
+      "etag": "DN+cJxRHUAo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/336eDgAAQBAJ",
+      "volumeInfo": {
+        "title": "技術者･研究者のための特許検索ﾃﾞｰﾀﾍﾞｰｽ活用術",
+        "authors": [
+          "小島浩嗣"
+        ],
+        "publisher": "秀和システム",
+        "publishedDate": "2017-02",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798049458"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "479804945X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=336eDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=336eDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=336eDgAAQBAJ&pg=PA51&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=336eDgAAQBAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E6%8A%80%E8%A1%93%E8%80%85_%E7%A0%94%E7%A9%B6%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E7%89%B9%E8%A8%B1%E6%A4%9C.html?hl=&id=336eDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=336eDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... 要約(日本語or英語)国際出願国際公開 WO2015/123456A1 明細書受理官庁国際\u003cbr\u003e\n事務局(日本国特許庁) (WIPO)請求の範囲図面 &amp; 要約(日本語or英語) \u003cbr\u003e\nINTERNATIONAL \u003cb\u003eSEARCH\u003c/b\u003e REPORT 国際調査機関(日本国or欧州特許庁)移行再\u003cbr\u003e\n公表再公表特許&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qYC2AAAAIAAJ",
+      "etag": "yw3jojGe2hI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qYC2AAAAIAAJ",
+      "volumeInfo": {
+        "title": "最新ビジネス・技術実用英語辞典",
+        "subtitle": "英和・和英",
+        "authors": [
+          "海野文男"
+        ],
+        "publishedDate": "1994",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCSD:31822016648453"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1451,
+        "printType": "BOOK",
+        "categories": [
+          "Business"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qYC2AAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qYC2AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=qYC2AAAAIAAJ&q=search+%E6%8A%80%E8%A1%93&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=qYC2AAAAIAAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E6%9C%80%E6%96%B0%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9_%E6%8A%80%E8%A1%93%E5%AE%9F%E7%94%A8%E8%8B%B1%E8%AA%9E%E8%BE%9E.html?hl=&id=qYC2AAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qYC2AAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "捜す,捜索する,調べる&lt; for ) ;コ seat 14 ~席,座席,識席,座部,座面,身体,衣ンピュータ\u003cbr\u003e\n,情処》\u003cb\u003eサーチ\u003c/b\u003e[検索]する&lt; for &gt;「検服 ... \u003cb\u003esearch\u003c/b\u003e , query 拠点,中心地○ a 60 - seat I \u003cbr\u003e\n- person ] meeting room などがある. retrieve は特定のデータを見つけて取 60 人&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4LASBq8SaG4C",
+      "etag": "yJjQndXJ3CI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4LASBq8SaG4C",
+      "volumeInfo": {
+        "title": "コンサイス版 ビットコインとブロックチェーン",
+        "subtitle": "暗号通貨を支える技術",
+        "authors": [
+          "アンドレアス・M・アントノプロス"
+        ],
+        "publisher": "NTT出版",
+        "publishedDate": "2018-04",
+        "description": "これでわかったブロックチェーン!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "4757103751"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9784757103757"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 98,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4LASBq8SaG4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4LASBq8SaG4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=4LASBq8SaG4C&printsec=frontcover&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=4LASBq8SaG4C&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E3%82%B3%E3%83%B3%E3%82%B5%E3%82%A4%E3%82%B9%E7%89%88_%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3%E3%81%A8.html?hl=&id=4LASBq8SaG4C"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4LASBq8SaG4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "これでわかったブロックチェーン!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Lgy5AAAAIAAJ",
+      "etag": "YZ1ibmPbSTc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Lgy5AAAAIAAJ",
+      "volumeInfo": {
+        "title": "和英特許・技術用語辞典",
+        "subtitle": "特許出願文書作成のための用語と基礎知識",
+        "authors": [
+          "草川紀久"
+        ],
+        "publishedDate": "2005-09",
+        "description": "英文特許文書作成のための必携和英辞典",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCSD:31822034879866"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 265,
+        "printType": "BOOK",
+        "categories": [
+          "Industrial property"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Lgy5AAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Lgy5AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=Lgy5AAAAIAAJ&q=search+%E6%8A%80%E8%A1%93&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=Lgy5AAAAIAAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%92%8C%E8%8B%B1%E7%89%B9%E8%A8%B1_%E6%8A%80%E8%A1%93%E7%94%A8%E8%AA%9E%E8%BE%9E%E5%85%B8.html?hl=&id=Lgy5AAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Lgy5AAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... する engrave 調查 \u003cb\u003esearch\u003c/b\u003e 新規性調查 novelty \u003cb\u003esearch\u003c/b\u003e ; * patent \u003cb\u003esearch\u003c/b\u003e ;有效性\u003cbr\u003e\n調查 validity \u003cb\u003esearch\u003c/b\u003e ;\u003cb\u003e技術\u003c/b\u003e水準調查 state of the art \u003cb\u003esearch\u003c/b\u003e W preparation 釣支する \u003cbr\u003e\nhang 園つり下げた状態で支える PRO continuous ; lengthy ; lengthy ; long ; \u003cbr\u003e\nlonger&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "El7d6x5cl3UC",
+      "etag": "e9tlwc8DZTg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/El7d6x5cl3UC",
+      "volumeInfo": {
+        "title": "メタボロミクスの先端技術と応用",
+        "publisher": "CMC Publishing Co.,Ltd",
+        "publishedDate": "2008",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "4882319888"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9784882319887"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 299,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=El7d6x5cl3UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=El7d6x5cl3UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=El7d6x5cl3UC&pg=PP8&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=El7d6x5cl3UC&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E3%83%A1%E3%82%BF%E3%83%9C%E3%83%AD%E3%83%9F%E3%82%AF%E3%82%B9%E3%81%AE%E5%85%88%E7%AB%AF%E6%8A%80%E8%A1%93%E3%81%A8.html?hl=&id=El7d6x5cl3UC"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=El7d6x5cl3UC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Brancastonate Branche Sewch by superkangkom \u003cb\u003eSearch\u003c/b\u003e bylon \u003cb\u003eSearch\u003c/b\u003e by \u003cbr\u003e\nsuperpilgtum \u003cb\u003eSearch\u003c/b\u003e by \u003cb\u003eSearch\u003c/b\u003e by such Sewch by superclass \u003cb\u003eSearch\u003c/b\u003e by dass \u003cbr\u003e\n\u003cb\u003eSearch\u003c/b\u003e by laws \u003cb\u003eSearch\u003c/b\u003e by class Sewch tysuper oder \u003cb\u003eSearch\u003c/b\u003e by order \u003cb\u003eSearch\u003c/b\u003e by \u003cbr\u003e\norder&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WM25AAAAIAAJ",
+      "etag": "kb3XvoCYJkw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WM25AAAAIAAJ",
+      "volumeInfo": {
+        "title": "科学技術庁年報",
+        "publishedDate": "1986",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCSD:31822004372850"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Research"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.4.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WM25AAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WM25AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=WM25AAAAIAAJ&q=search+%E6%8A%80%E8%A1%93&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=WM25AAAAIAAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93%E5%BA%81%E5%B9%B4%E5%A0%B1.html?hl=&id=WM25AAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WM25AAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "表 4-2-4 受託件数サス内容写訳復翻開サササビビビススス査ス 60 年度受託件数 \u003cbr\u003e\n904 , 80614 6,5994 6294 テーマ 5 , 667 30 48 281 2 1 託検索 JICST 科学\u003cb\u003e技術\u003c/b\u003e\u003cbr\u003e\n文献ファイル JICST 国内医学文献ファイル CA \u003cb\u003eSEARCH\u003c/b\u003e 化学文献ファイル&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cHsnEAAAQBAJ",
+      "etag": "apXL1tS7h5k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cHsnEAAAQBAJ",
+      "volumeInfo": {
+        "title": "図解まるわかり Web技術のしくみ",
+        "authors": [
+          "西村 泰洋"
+        ],
+        "publisher": "翔泳社",
+        "publishedDate": "2021-04-07",
+        "description": "Webのしくみを理解することはITの基本を理解すること 確かな知識がつく「使える教科書」 【本書のポイント】 ・解説とイラストがセットで理解しやすい ・WebサイトとWebアプリ、さらにやや複雑なWebシステムのそれぞれを明確に分けて解説 ・他のシステムとの比較も含めて開発と運用、セキュリティについても解説 ・キーワードから知りたい項目を調べやすい ・現場の実態や出来事など、最新動向にもしっかり対応！ ・ビジネスパーソンに必須の知識に絞って解説！ ・管理者にも開発者にも役立つ基本がわかる こんな方におすすめ！ ・Web技術全体の概要を知りたい方 ・Webに関連する技術のイメージがわかなくて困っている方 ・Webに関わる技術と機器の役割を知りたい方 ・現場の実態や出来事など、最新動向についても知りたい方 【内容紹介】 Web技術は、個人の視点に立つと、日常的に利用しているWebサイトや検索エンジン、 SNS、オンラインショッピングなどのように、最も身近な情報システムです。 そこで、本書では見開きで 1つのテーマを取り上げ、 図解を交えて解説しています。 最初から順に読んで 体系的な知識を得るのはもちろん、 気になるテーマやキーワードに 注目しながら読むなど、 状況に合わせて活用しましょう。 【目次】 第1章 Web技術の基本～ブラウザとWebサーバーなどの登場人物～ 第2章 Web独自のしくみ～進化するWebサイトの裏側～ 第3章 Webを支えるしくみ～Webを取り巻く機能とサーバーの構築～ 第4章 Webの普及と広がり～拡大を続ける利用者と市場～ 第5章 Webと異なるシステム～Webに載らない、載せないシステム～ 第6章 クラウドとの関係～現在のWebシステムの基盤を理解する～ 第7章 Webサイトの開設に際して～確認してほしい事項～ 第8章 Webシステムの開発～使えるものは使って動かす～ 第9章 セキュリティと運用～Web固有とシステム全般と～",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9784798169491"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "4798169498"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.51.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cHsnEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cHsnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=cHsnEAAAQBAJ&pg=PA101&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=cHsnEAAAQBAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%9B%B3%E8%A7%A3%E3%81%BE%E3%82%8B%E3%82%8F%E3%81%8B%E3%82%8A_Web%E6%8A%80%E8%A1%93%E3%81%AE%E3%81%97%E3%81%8F.html?hl=&id=cHsnEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cHsnEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... 1.45% Yandex DuckDuckGo 0.98% 0.14% Yahoo! Baidu 0.10% 0.78% \u003cbr\u003e\nDuckDuckGo その他 0.07% 0.52%その他世界のモバイルの検索エンジンシェア(\u003cbr\u003e\n2021/1) URL:https://gs.statcounter.com/\u003cb\u003esearch\u003c/b\u003e-engine-market- share/mobile/\u003cbr\u003e\njapan&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NrEwAQAAIAAJ",
+      "etag": "0GkGDitljjU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NrEwAQAAIAAJ",
+      "volumeInfo": {
+        "title": "図書館情報学研究文献要覧 1982~1990",
+        "authors": [
+          "日本図書館学会編集委員会"
+        ],
+        "publishedDate": "1993",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCSD:31822015110950"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 768,
+        "printType": "BOOK",
+        "categories": [
+          "Information science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NrEwAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NrEwAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=NrEwAQAAIAAJ&pg=PA325&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=NrEwAQAAIAAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%83%85%E5%A0%B1%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%96%87%E7%8C%AE%E8%A6%81%E8%A6%A7_198.html?hl=&id=NrEwAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NrEwAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "x0YbAQAAMAAJ",
+      "etag": "bRlxx4Z1PGg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/x0YbAQAAMAAJ",
+      "volumeInfo": {
+        "title": "国立国会図書館蔵書目錄・昭和 52--60年: Gakujutsu ippan, tetsugaku, shūkyō",
+        "authors": [
+          "国立国会図書館 (Japan)",
+          "国立国会図書館 (Japan). 図書部"
+        ],
+        "publishedDate": "1987",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015066432025"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Japan"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=x0YbAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=x0YbAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "ja",
+        "previewLink": "http://books.google.co.jp/books?id=x0YbAQAAMAAJ&pg=PA645&dq=search+%E6%8A%80%E8%A1%93&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.co.jp/books?id=x0YbAQAAMAAJ&dq=search+%E6%8A%80%E8%A1%93&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/%E5%9B%BD%E7%AB%8B%E5%9B%BD%E4%BC%9A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5%E6%9B%B8%E7%9B%AE%E9%8C%84_%E6%98%AD%E5%92%8C.html?hl=&id=x0YbAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "JP",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "JP",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=x0YbAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
